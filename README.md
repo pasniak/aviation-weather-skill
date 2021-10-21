@@ -22,6 +22,9 @@ Visibility 10 miles
 sky clear
 ```
 
+## Third party
+This skill uses FAA's Aviation Digital Data Service: https://www.aviationweather.gov/adds/.
+
 ## Credits
 pasniak
 
@@ -33,6 +36,14 @@ pasniak
 
 ## Installation
 Once you ssh to your PiCroft:
+
+In mycroft-cli-client, type:
+```
+install https://github.com/pasniak/aviation-weather-skill
+```
+and follow the installation.
+
+Alternatively, in the shell execute:
 ```
 cd /opt/mycroft/skills
 git clone https://github.com/pasniak/aviation-weather-skill
