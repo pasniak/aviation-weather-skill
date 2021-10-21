@@ -41,7 +41,8 @@ In mycroft-cli-client, type:
 ```
 install https://github.com/pasniak/aviation-weather-skill
 ```
-and follow the installation.
+and follow the installation (confirm `yes`).
+After a while you should hear `aviation weather is now installed and ready for use`.
 
 Alternatively, in the shell execute:
 ```
