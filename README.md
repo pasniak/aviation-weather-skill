@@ -5,8 +5,9 @@ Aviation weather checker
 Checks current weather (METAR) at a given airport
 
 ## Examples
-* "METAR KJFK" 
-* "airport KTTN"
+* "METAR KJFK" (for New York's JFK)
+* "airport KTTN" (for TTN in Trenton, NJ)
+* "airport LFPG" (for Paris CDG)
 
 ## Credits
 pasniak
