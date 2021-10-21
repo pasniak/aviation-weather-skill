@@ -9,6 +9,19 @@ Checks current weather (METAR) at a given airport
 * "airport KTTN" (for TTN in Trenton, NJ)
 * "airport LFPG" (for Paris CDG)
 
+A reply will be something along:
+```
+Metar for KTTN
+Observed 53 minutes ago
+VFR
+Temperature 18.3 Celsius
+Dewpoint 10.0
+Wind 230
+5 knots
+Visibility 10 miles
+sky clear
+```
+
 ## Credits
 pasniak
 
