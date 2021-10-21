@@ -1,19 +1,19 @@
-# <img src="https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/robot.svg" card_color="#22A7F0" width="50" height="50" style="vertical-align:bottom"/> Feed The Corgi
-Corgi checker
+# <img src="https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/robot.svg" card_color="#22A7F0" width="50" height="50" style="vertical-align:bottom"/> Aviation Weather
+Aviation weather checker
 
 ## About
-Corgi feeding checker
+Checks current weather (METAR) at a given airport
 
 ## Examples
-* "Have i fed the corgi today"
-* "Remind me to feed the corgi at 5pm"
+* "METAR KJFK" 
+* "airport KTTN"
 
 ## Credits
 pasniak
 
 ## Category
-**Productivity**
+**Productivity** **Aviation**
 
 ## Tags
-#Dogs
+#Weather #airport
 
