@@ -124,7 +124,8 @@ class AviationWeather(MycroftSkill):
             self.speak('Gusting to ' + wind.text)
 
         for vis in m.iter('visibility_statute_mi'):
-            self.speak('Visibility ' + nozeros(vis.text) + ' miles')
+            miles = nozeros(vis.text) 
+            self.speak('Visibility ' + miles + (' mile' if float(miles) <= 1 else ' miles'))
         for sky in m.iter('sky_condition'):
             self.speak(str(
                 " ".join(map(sky_cover, list(sky.attrib.values())))
@@ -169,7 +170,7 @@ def nozeros(s):
 
 #returns string `s` without postfix `sub`
 def substr(s,sub):
-    return s[:s.find(sub)-1]
+    return s[:s.find(sub)]
 
 def sky_cover(x):
     return 'sky clear' if x=='CLR' else 'scattered clouds at' if x=='SCT' else 'few clouds at' if x=='FEW' else 'broken clouds at' if x=='BKN' else 'overcast at' if x=='OVC' else x
