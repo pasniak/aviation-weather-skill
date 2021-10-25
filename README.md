@@ -2,12 +2,14 @@
 Aviation weather checker
 
 ## About
-Checks current weather (METAR) at a given airport
+Checks current weather (METAR) or forecast (TAF) at a given airport
 
 ## Examples
-* "METAR KJFK" (for New York's JFK)
+* "metar KJFK" (for New York's JFK)
 * "airport KTTN" (for TTN in Trenton, NJ)
 * "airport LFPG" (for Paris CDG)
+* "terminal KJFK" (for New York City forecast TAF) - work in progress
+* "taf KJFK"
 
 A reply will be something along:
 ```
