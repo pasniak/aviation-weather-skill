@@ -1,1 +1,0 @@
-(metar | airport | airports | meter | meatrx | meatier) ({letter} {numbers} | {apt_name})
