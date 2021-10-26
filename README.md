@@ -1,8 +1,8 @@
 # <img src="https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/plane-departure.svg" card_color="#22A7F0" width="50" height="50" style="vertical-align:bottom"/> Aviation Weather
-Aviation weather checker
+Voice aviation weather checker
 
 ## About
-Checks current weather (METAR) or forecast (TAF) at a given airport
+Checks current weather (METAR) or forecast (TAF) at a given airport on https://mycroft.ai/ platform.
 
 ## Examples
 * "metar KJFK" (for New York's JFK)
